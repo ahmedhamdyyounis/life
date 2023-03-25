@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+.project {
+    width: 90%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px 10px #333;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #FFF4E0;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    color: #4D4D4D;
+}
+
+.side .side-title {
+color: #B46060;
+font-size: 18px;
+font-weight: 600;
+}
+
+.part {
+    margin-bottom: 20px;
+}
+
+.part .sub-part {
+    color: #FFBF9B;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-bottom: 8px;
+}
+
+.part table {
+    border: 1px solid;
+    text-align: center;
+    width: 90%;
+    margin-inline: auto;
+}
+
+th:not(:first-child) {
+    border-left: 1px solid;
+}
+
+th {
+    padding: 5px;
+}
+
+td {
+    border-top: 1px solid black;
+}
+
+td:not(:first-child) {
+    border-left: 1px solid;
+}
+
+.part h5,
+.daily-to-do p {
+    position: relative;
+    margin-left: 20px;
+    color: #4D4D4D;
+    font-size: 15px;
+    letter-spacing: .1rem;
+    padding-left: 15px;
+}
+
+.part h5:before, 
+.daily-to-do p:before {
+    content: '-';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translatey(-50%);
+}
+
+.daily {
+    margin-inline: auto;
+}
+
+hr {
+    margin-block: 30px;
+}
+
+.daily-to-do p {
+    color: #B46060;
+    font-size: 19px;
+}
+
+
